@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Monda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
 
 :root{
     --cor-primaria: #F6F1F1; /*fundo*/
@@ -8,7 +8,7 @@
     --cor-quintenaria: #146C94;/*letras login*/
     --cor-hover: #DEE4E7;
 
-    --fonte-principal: 'Krona', sans-serif; 
+    --fonte-principal: 'Inika', sans-serif; 
 }
 * { 
      margin: 0; /*margem // reseta padrão */
