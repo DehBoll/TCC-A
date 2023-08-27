@@ -1,0 +1,65 @@
+<!DOCTYPE html> <!--identifica que é html-->
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--compatibilidade com o navegador-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa - Área do Cliente</title> <!--título da guia-->
+    <link rel="stylesheet" href="./styles/style.css"> <!--linkando meu css -->
+</head>
+
+<body>
+    <header class="cabecalho"> <!--Falta a imagem -->
+        <nav class="cabecalho__menu">
+           <a class="cabecalho__menu__link" href="index.html">Início</a> 
+           <a class="cabecalho__menu__link" href="cliente.html">Cliente</a>
+           <a class="cabecalho__menu__link" href="chamados.html">Chamados</a> 
+        </nav>
+    </header>
+
+    <main class="empresa"> 
+        <section class="apresentacao__conteudo">
+        <h1 class="apresentacao__conteudo__titulo">Área do Cliente</h1>
+        <div>
+            <ul class="apresentacao__conteudo__texto">
+                <li>
+                    <label for="CPF/CNPJ">Digite CPF/CNPJ do Cliente:</label>
+                    <input id="cpf/cnpj" type="text" placeholder="insira o CPF/CNPJ (somente números)" pattern="[0-9]{11}{14}">   <!--Precisde JS po preenchimento da informação -->
+                </li>
+            </ul>
+            <ul class="apresentacao__conteudo__texto">
+                <li>Tipo de Serviço:</li>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Implementação">
+                <label for="vehicle1">Implementação</label>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Cancelamento">
+                <label for="vehicle2">Cancelamento</label>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Consulta">
+                <label for="vehicle3">Consulta</label>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Manutenção">
+                <label for="vehicle3">Manutenção</label><br>
+            </ul>
+        </div>
+            <p class="apresentacao__conteudo__texto">Conteudo</p>
+            <p class="apresentacao__conteudo__texto">Conteudo</p>
+            <p class="apresentacao__conteudo__texto">Conteudo</p>
+            <p class="apresentacao__conteudo__texto">Conteudo</p>
+            <p class="apresentacao__conteudo__texto">Conteudo</p>
+            <p class="apresentacao__conteudo__texto">Conteudo</p>
+            <p class="apresentacao__conteudo__texto">Conteudo</p>
+            <p class="apresentacao__conteudo__texto">Conteudo</p>
+            <p class="apresentacao__conteudo__texto">Conteudo</p>
+            <p class="apresentacao__conteudo__texto">Conteudo</p>
+            <p class="apresentacao__conteudo__texto">Conteudo</p>
+            <p class="apresentacao__conteudo__texto">Conteudo</p>
+            <p class="apresentacao__conteudo__texto">Conteudo</p>
+            
+            
+
+    </main>
+    <footer class="rodape"> 
+        <p>Empresa</p>
+    </footer>   
+</body>
+
+</html>
